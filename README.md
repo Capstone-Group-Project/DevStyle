@@ -1,4 +1,5 @@
-<strong> Meet the Team </strong>
+<h1>Project Description</h1>
+<strong> Meet the Team</strong>
 <br>
 Jawanza - Brooklyn, NY - Developer and ____ <br>
 Kidus - Developer and _______ <br>
