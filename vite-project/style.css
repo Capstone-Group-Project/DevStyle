@@ -42,38 +42,45 @@ h1.about{
   text-align: center;
   font-weight: bold;
   letter-spacing: 2px;
-  color: #333;
+  color: #605C5C;
   padding-bottom: 10px;
+  font-size: 100px;
+
 }
 p.abouttext{
   text-align: center;
-  color: #333;
+  color: #605C5C;
   padding-bottom: 10px;
+  font-size: 60px;
 }
 h1.bio{
   text-align: center;
   font-weight: bold;
   letter-spacing: 2px;
-  color: #333;
+  color: #605C5C;
   padding-bottom: 10px;
+  font-size: 100px;
 }
 
-h1.bio:after{
+/* h1.bio:after{
 content:'';
 background: #333;
 display: block;
 height: 3px;
 width: 150px;
 margin: 10px auto;
-}
+} */
 
 img.img-responsive{
-  height: 300px;
+  height: 400px;
 }
 .profile{ 
   margin-top: 25px;
 }
 
+.row{
+padding-left: 30em;
+}
 .profile.img-box{
   opacity: 1;
   display: block;
@@ -81,9 +88,10 @@ img.img-responsive{
 }
 
 .profile h2{
-  font-size: 22px;
+  font-size: 40px;
   font-weight: bold;
   margin-top: 15px;
+  color: #605C5C;
 }
 
 li.imgbios {
@@ -99,8 +107,13 @@ li.imgbios {
   
 }
 button{
-  color: rgb(86, 48, 48);
+  color: #605C5C;
   text-align: center;
+  margin: 0 auto;
+    display: block;
+    font-size: 45px;
+    border-radius: 12px;
+    background-color: #D9D9D9;
 }
 
 button:hover::after{

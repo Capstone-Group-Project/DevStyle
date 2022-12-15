@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather">
+    <title>Google Fonts</title>
+</head>
+<body>
+    <script id="replace_with_navbar" src="/nav.js"></script>
+<h1 id="fontname"></h1>
+<!-- <script type="module" src="/main.js"></script> -->
+<div>
+    <div class="comment">
+   <h1 id="header" style="font-family: 'Merriweather', serif;  color: #989595;">Merriweather</h1>
+   <form id="fontstyle">
+  <select name="weights" id="weights">
+    <option value="thin100">Thin 100</option>
+    <option value="light300">Light 300</option>
+    <option value="regular400">Regular 400</option>
+    <option value="medium500">Medium 500</option>
+    <option value="bold700">Bold 700</option>
+    <option value="black900">Black 900</option>
+  </select>
+  </form>
+    </div>
+</div>
+<div class="content">
+    <div id="thin100" class ="data"></div>
+    <div id="light300" class ="data"></div>
+    <div id="regular400" class ="data"></div>
+    <div id="medium500" class ="data"></div>
+    <div id="bold700" class ="data"></div>
+    <div id="black900" class ="data"></div>
+
+
+</div>
+
+<!-- <font-component></font-component> -->
+<script>let fontdetails = localStorage.getItem("fontSelected");
+    console.log(fontdetails)</script>
+
+<textarea id="input"  name="input"
+oninput="dynamicText()" rows="8" cols="100" placeholder="Enter text here..."></textarea>
+<p id="paragraph" style="font-family: 'Merriweather', serif'; font-weight: 100;"></p>
+<script>
+
+
+    function dynamicText() {
+       let fontGenerator = document.getElementById("input").value;
+       if(fontGenerator){
+       
+            let generate = document.getElementById("paragraph"); 
+generate.textContent = fontGenerator; 
+
+
+       }
+    }
+</script>
+<h2 style="margin-left: 60px; font-family: 'Merriweather', serif; font-weight: 100; font-size: 80px; text-decoration: none; color: #989595;"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. </h2>
+<h3 style="margin-left: 60px; font-family: 'Merriweather', serif; font-weight: 300; font-size: 80px; text-decoration: none; color: #989595;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </h3>
+<h4 style="margin-left: 60px; font-family: 'Merriweather', serif; font-weight: 400; font-size: 80px; text-decoration: none; color: #989595;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </h4>
+<h5 style="margin-left: 60px; font-family: 'Merriweather', serif;; font-size: 80px; text-decoration: none; color: #989595;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </h5>
+<script type="module" src="/fontdetails.js"></script>
+</body>
+</html>

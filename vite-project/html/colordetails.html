@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/css/color.css">
+    <title>Favorites</title>
+</head>
+<body>
+    <script id="replace_with_navbar" src="/nav.js"></script>
+    <h1 style="color: #989595;">  Color Palette</h1>
+    <!-- <h3>Macaron</h3> <p>#F7DFD4</p>
+    <h3>Blush</h3> <p>#EABCAC</p>
+    <h3>Nude</h3> <p>#E2B091</p>
+    <h3>Chocolat</h3> <p>#874E4C</p>
+    <h3>Cafe Noir</h3><p>#32485C</p> -->
+    <div class="color-palette">
+        <!-- <img src="https://res.cloudinary.com/do8ajd6lv/image/upload/v1547545264/house.jpg" alt="An old house with blush, nude and chocolate colors"> -->
+    
+            <div class="colors-container">
+            <div class="macaron box">
+             
+                <p data-ctc>#F7DFD4</p>
+                <p>Macaron</p>
+               
+            </div>
+
+            <div class="blush box">
+                <p data-ctc>#EABCAC</p>
+                <p>Blush</p>
+            </div>
+
+            <div class="nude box">
+                <p data-ctc>#E2B091</p>
+                <p>Nude</p>
+            </div>
+
+            <div class="chocolat box">
+                <p data-ctc>#874E4C</p>
+                <p>Chocolat</p>
+            </div>
+
+            <div class="cafenoir box">
+                <p data-ctc>#32485C</p>
+                <p>Café Noir</p>
+            </div>
+        </div> 
+    </div> 
+    <script>
+ let selectable = document.querySelector('[data-ctc]');
+
+// deselect on mouseleave
+selectable.addEventListener('mouseleave',()=>{
+  document.getSelection().removeAllRanges() 
+});
+
+
+selectable.addEventListener('click', ctc)
+selectable.addEventListener('mouseover', ctc)
+
+// select the element and copy
+function ctc(e){
+let range = document.createRange();  
+  range.selectNode(this);  
+  window.getSelection().addRange(range); 
+ if(e.type == "click") {
+   document.execCommand("copy"); // native copy function
+   flash();
+ }
+}
+
+// simple flash message
+function flash() {
+  let body = document.querySelector("body");
+  body.classList.add("special");
+  setTimeout(() => {
+    body.classList.remove("special");
+  }, 2000);
+}
+    </script>
+</body>
+</html>

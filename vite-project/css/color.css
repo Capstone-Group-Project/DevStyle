@@ -1,0 +1,371 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    /* background-color: #FFFF; */
+    width: 100%;
+    height: 600px; 
+}
+
+.color-palette {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    padding: 10px;
+    width: auto;
+    height: 50%;
+}
+
+img {
+    height: 100%; 
+    width: auto;
+}
+
+
+.colors-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.box {
+    width: 100%;
+    height: 100%;
+    margin: 0px 0px 0px 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+p {
+    text-align: center;
+    letter-spacing: 3px;
+    font-family: 'Karla', sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    margin: 0;
+    padding: 5px;
+    
+}
+
+.macaron {
+    background: #F7DFD4;
+}
+
+.blush {
+    background: #EABCAC;
+}
+
+.nude {
+    background: #E2B091;
+
+}
+
+.chocolat {
+    background: #874E4C;
+
+}
+
+.cafenoir {
+    background: #32485C;
+
+}
+
+.glass {
+    background: #EDFAFD;
+}
+
+.chill {
+    background: #AED9DA;
+}
+
+.coral {
+    background: #3DDAD8;
+
+}
+
+.bondi {
+    background: #2A93D5;
+
+}
+
+.marina {
+    background: #135589;
+
+}
+
+.tropical {
+    background: #F5AB99;
+}
+
+.sunset {
+    background: #FEB47B;
+}
+
+.heatwave {
+    background: #FF7E5F;
+
+}
+
+.paradise {
+    background: #765285;
+
+}
+
+.nightfall {
+    background: #351C4D;
+
+}
+
+.ivory {
+    background: #F4E8C1;
+}
+
+.azul {
+    background: #A0C1B8;
+}
+
+.bolivia {
+    background: #709FB0;
+
+}
+
+.jacaranda {
+    background: #726A95;
+
+}
+
+.malbec {
+    background: #351F39;
+
+}
+
+.cream {
+    background: #E9DCCD;
+}
+
+.petal {
+    background: #E3BAB3;
+}
+
+.burgundy {
+    background: #613A43;
+
+}
+
+.fresh {
+    background: #849974;
+
+}
+
+.charcoal {
+    background: #36384C;
+
+}
+
+.rosa {
+    background: #F2AD9F;
+}
+
+.ruby {
+    background: #F26968;
+}
+
+.limestone {
+    background: #DFE2D2;
+
+}
+
+.venice {
+    background: #6CBF84;
+
+}
+
+.moss {
+    background: #323339;
+
+}
+
+.chiffon {
+    background: #F8F3E6;
+}
+
+.vanilla {
+    background: #E8CC8F;
+}
+
+.buttercup {
+    background: #EFAA52;
+
+}
+
+.rust {
+    background: #AB3E16;
+
+}
+
+.mahogany {
+    background: #48120E;
+
+}
+
+.cashmere {
+    background: #CBC5C1;
+}
+
+.french {
+    background: #A2AAB0;
+}
+
+.white {
+    background: #EBECED;
+
+}
+
+.denim {
+    background: #4C586F;
+
+}
+
+.gunmetal {
+    background: #3E3E3B;
+
+}
+
+.color {
+    background: #69D2e7;
+
+}
+
+.color2 {
+    background: #a7dbd8;
+
+}
+
+.color3 {
+    background: #e0e4cc;
+    
+}
+.color4 {
+    background: #f38630;
+    
+}
+.color5 {
+    background: #fa6900;
+    
+}
+
+.color6 {
+    background: #fe4365;
+
+}
+
+.color7 {
+    background: #fc9d9a;
+
+}
+
+.color8 {
+    background: #f9cdad;
+    
+}
+.color9 {
+    background: #c8c8a9
+    
+}
+.color10 {
+    background: #83af9b;
+    
+}
+.color11 {
+    background: #ecd078;
+
+}
+
+.color12 {
+    background: #d95b43;
+
+}
+
+.color13 {
+    background: #c02942;
+    
+}
+.color14 {
+    background: #542437;
+    
+}
+
+.color15 {
+    background: #53777a;
+    
+}
+.color16 {
+    background: #556270;
+    
+}
+.color17 {
+    background: #4ecdc4;
+
+}
+
+.color18 {
+    background: #c7f464;
+
+}
+
+.color19 {
+    background: #ff6b6b;
+    
+}
+.color20 {
+    background: #c44d58;
+    
+}
+.color21 {
+    background: #774f38;
+    
+}
+.color22 {
+    background: #e08e79;
+
+}
+
+.color23 {
+    background: #f1d4af;
+
+}
+
+.color24 {
+    background: #ece5ce;
+    
+}
+.color25 {
+    background: #c5e0dc;
+    
+}
+
+.color26 {
+    background: #e8ddcb;
+    
+}
+.color27 {
+    background: #cdb380;
+
+}
+
+.color28 {
+    background: #036564;
+
+}
+
+.color29 {
+    background: #033649;
+    
+}
+.color30 {
+    background: #031634;
+    
+}
